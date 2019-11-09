@@ -1,0 +1,200 @@
+* {
+    font-family: "Century Gothic";
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+.Header {
+    height: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:  #2a2a2a;
+}
+.navbarBack {
+    height: 50px;
+    background-color: #2a2a2a;
+}
+.title {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    top: 33%;
+}
+.stay {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+.navColor {
+    font-weight: bolder;
+    border-bottom: 2px solid white;
+    background-color: #2a2a2a;
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.navColor:hover {
+    border-bottom: 2px solid blue;
+    background-color: white;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+.LogoBoxLeft {
+    height: 100px;
+    float: left;
+    width: 100px;
+    position: relative;
+    top: 16%;
+
+}
+.LogoBoxRight {
+    height: 100px;
+    float: right;
+    width: 100px;
+    position: relative;
+    top: 16%;
+    padding: 7px;
+}
+.iconImage {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    float:right;
+    position: relative;
+    top: 33%;
+}
+.hiddenMedium {
+    display: block;
+}
+.showMedium {
+    display: none;
+}
+.showSmall {
+    display: none;
+}
+.background-box {
+    background-color: black;
+    height: 1000px;
+}
+.footer {
+    border-top: 2px solid white;
+    height: 200px;
+    padding: 50px;
+    background-color: #2a2a2a;
+    position: relative;
+    bottom: 0px;
+}
+.footerBox {
+    font-size: 25px;
+    color: white;
+}
+.footertext {
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .title {font-size: 20px;}
+    .hiddenMedium {display: none;}
+}
+@media screen and (max-width: 992px) {
+    .hiddenMedium {display: none;}
+    .showMedium {display:block;}
+    .iconImage {
+        top: 25%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .navColor {display: none;}
+    .LogoBoxLeft {
+        top: 12%;
+        height: 150px;
+        width: 150px;
+    }
+    .showMedium {display:none;}
+    .showSmall {display: block;}
+    .navbarBack {
+        border-bottom: 0px;
+        height: 100px;
+    }
+    .Header {height: 200px;}
+}
+@media screen and (max-width: 1330px) {
+    .title{
+        font-size: 35px;
+        padding-left: 20px;
+        top: 20%;
+    }
+}
+.background-box {
+    background-color: #0d0d0d;
+    height: auto;
+}
+.bodyBox {
+    background-color: #4d4d4d;
+    padding-top: 25px;
+    padding-left: 25px;
+    height: auto;
+    padding-right: 25px;
+}
+.lastBox {
+    padding-bottom: 25px;
+}
+.messageBox {
+    background-color: #2a2a2a;
+    padding: 25px;
+    border-radius: 8px;
+    color: white;
+    height: auto;
+}
+.EventTitle {
+    color: white;
+}
+.dropdownNav {
+    margin: 0px;
+    padding: 0px;
+    width: 90vw;
+    background-color: #2a2a2a;
+    border-radius: 0px;
+}
+.itemNav {
+    background-color: #2a2a2a;
+    position: relative;
+    top: 50%;
+    z-index: 999;
+    font-size: 30px;
+    font-wieght: bolder;
+    color: white;
+}
+.mobileNav {
+    background-color: inherit;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    border-bottom: 10px solid white;
+}
+.mobileNavButton {
+    font-size: 40px;
+    border: 0px;
+    color: white;
+    position: relative;
+    top: 39%;
+    float: left;
+    background-color: #2a2a2a;
+    margin-left: 10px;
+}
+.mobileNavBack {
+    height: 100px;
+    background-color:inherit;
+}
+.homeIcon {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 55%;
+    float: right;
+    margin-right: 10px;
+}
