@@ -122,9 +122,9 @@
     }
     .Header {height: 200px;}
 }
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1400px) {
     .title{
-        font-size: 35px;
+        font-size: 30px;
         padding-left: 20px;
         top: 20%;
     }
