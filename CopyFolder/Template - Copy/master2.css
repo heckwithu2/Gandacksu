@@ -17,8 +17,6 @@
     font-size: 40px;
     color: white;
     font-weight: bolder;
-    position: relative;
-    top: 33%;
 }
 .stay {
     position: -webkit-sticky; /* Safari */
@@ -48,25 +46,16 @@
     height: 100px;
     float: left;
     width: 100px;
-    position: relative;
-    top: 16%;
-
 }
 .LogoBoxRight {
     height: 100px;
     float: right;
     width: 100px;
-    position: relative;
-    top: 16%;
-    padding: 7px;
 }
 .iconImage {
-    height: 50px;
-    width: 50px;
-    margin: 10px;
+    height: 75px;
+    width: 75px;
     float:right;
-    position: relative;
-    top: 33%;
 }
 .hiddenMedium {
     display: block;
@@ -74,8 +63,10 @@
 .showMedium {
     display: none;
 }
-.showSmall {
-    display: none;
+.messageBox {
+
+    background-color: #4d4d4d;
+    height: 1000px;
 }
 .background-box {
     background-color: black;
@@ -103,32 +94,21 @@
 @media screen and (max-width: 992px) {
     .hiddenMedium {display: none;}
     .showMedium {display:block;}
-    .iconImage {
-        top: 25%;
-    }
 }
 @media screen and (max-width: 576px) {
-    .navColor {display: none;}
-    .LogoBoxLeft {
-        top: 12%;
-        height: 150px;
-        width: 150px;
+    .navColor {
+        display: none;
     }
-    .showMedium {display:none;}
-    .showSmall {display: block;}
-    .navbarBack {
-        border-bottom: 0px;
-        height: 100px;
-    }
+    .navbarBack {border-bottom: 2px solid white;}
     .Header {height: 200px;}
 }
 @media screen and (max-width: 1330px) {
     .title{
         font-size: 35px;
         padding-left: 20px;
-        top: 20%;
     }
 }
+
 .background-box {
     background-color: #0d0d0d;
     height: auto;
@@ -142,82 +122,4 @@
 }
 .lastBox {
     padding-bottom: 25px;
-}
-.messageBox {
-    background-color: #2a2a2a;
-    padding: 25px;
-    border-radius: 8px;
-    color: white;
-    height: auto;
-}
-.EventTitle {
-    color: white;
-}
-.dropdownNav {
-    margin: 0px;
-    padding: 0px;
-    width: 90vw;
-    background-color: #2a2a2a;
-    border-radius: 0px;
-}
-.itemNav {
-    background-color: #2a2a2a;
-    position: relative;
-    top: 50%;
-    z-index: 999;
-    font-size: 30px;
-    font-weight: bolder;
-    color: white;
-}
-.mobileNav {
-    background-color: inherit;
-    margin: 0px;
-    padding: 0px;
-    height: 100px;
-    border-bottom: 10px solid white;
-}
-.mobileNavButton {
-    font-size: 40px;
-    border: 0px;
-    color: white;
-    position: relative;
-    top: 39%;
-    float: left;
-    background-color: #2a2a2a;
-    margin-left: 10px;
-}
-.mobileNavBack {
-    height: 100px;
-    background-color:inherit;
-}
-.homeIcon {
-    font-size: 40px;
-    color: white;
-    position: relative;
-    top: 55%;
-    float: right;
-    margin-right: 10px;
-}
-
-.topButton {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    outline: none;
-    background-color: #cccccc;
-    color: black;
-    cursor: pointer;
-    padding: 15px;
-    border: 3px solid black;
-}
-
-.topButton:hover {
-    background-color:white;
-    border: 3px solid black;
-    color:  black;
 }
