@@ -13,9 +13,39 @@
     <link rel="h" type="image/x-icon" href="Images/ADGC_logo.png" />
     <link rel="stylesheet" type="text/css" href="master.css">
     <title>Contact Us AGDC</title>
-    <style>
 
-    </style>
+    <style>
+    .cardContainer {
+        max-width: 200px;
+        min-width: 150px;
+        height: 400px;
+        margin-bottom: 25px;
+    }
+    .cardBox {
+        background-color: #666666;
+    }
+    .cardTextTitle {
+        text-align: center;
+        font-size: 20px;
+        background-color: #cccccc;
+        color: #0d0d0d;
+        font-weight: bolder;
+        letter-spacing: 0px;
+    }
+    .cardText {
+        /*letter-spacing: .2px;*/
+        background-color: #666666;
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .cardBody {
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+</style>
+
     <!--Script Classes-->
     <style>
         .topButton {
@@ -49,31 +79,18 @@
 <!--||||||||||||||||||||||||||||||||||||||||||||||||||||||HEADER |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
 
 
-<div class="container-fluid background-box">
-    <div class="row">
-        <div class="col-12">
-            <div class=" container bodyBox">
-                <div class="row">
-                    <div class="col-12">
-                        <p class="title">Coming Soon!</p>
-                    </div>
-                    <div class="col-12">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<div id="Contact"></div>
 
 
 <!--|||||||||||||||||||||||||||||||||||||||FOOOTER||||||||||||||||||||||||||||||||||||||||||||||||||-->
 <div id="Footer"></div>
 <!--|||||||||||||||||||||||||||||||||||||||FOOOTER||||||||||||||||||||||||||||||||||||||||||||||||||-->
+<script src="js/Contacts.js"></script>
 <script src="js/Header.js"></script>
 <script src="js/Footer.js"></script>
 <script>
     // codeBlock  = '<div>Hello World!!!</div>';
+    document.getElementById("Contact").innerHTML = ContactsBlock;
     document.getElementById("Header").innerHTML = HeaderBlock;
     document.getElementById("Footer").innerHTML = FooterBlock;
 </script>

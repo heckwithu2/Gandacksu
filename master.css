@@ -83,7 +83,8 @@
 }
 .footer {
     border-top: 2px solid white;
-    height: 200px;
+    min-height: 200px;
+    height: auto;
     padding: 50px;
     background-color: #2a2a2a;
     position: relative;
@@ -92,6 +93,7 @@
 .footerBox {
     font-size: 25px;
     color: white;
+    height: auto;
 }
 .footertext {
     color: white;
