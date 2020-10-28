@@ -19,7 +19,7 @@ ContactsBlock = '<div class="container-fluid background-box">\n' +
     '                                                    <img class="img-fluid" src="pictures/Avat.jpg">\n' +
     '                                                </div>\n' +
     '\n' +
-    '                                                <div class="card-footer cardText"><a href="mailto: jheck10@kent.edu">Email</a></div>\n' +
+    '                                                <div class="card-footer cardText"><a href="mailto: lmoore75@kent.edu">Email</a></div>\n' +
     '                                            </div>\n' +
     '                                        </div>\n' +
     '                                    </div>\n' +
@@ -49,7 +49,7 @@ ContactsBlock = '<div class="container-fluid background-box">\n' +
     '                                                    <img class="img-fluid" src="pictures/image0.jpg">\n' +
     '                                                </div>\n' +
     '\n' +
-    '                                                <div class="card-footer cardText"><a href="mailto: jheck10@kent.edu">Email</a></div>\n' +
+    '                                                <div class="card-footer cardText"><a href="mailto: Jgage1@kent.edu">Email</a></div>\n' +
     '                                            </div>\n' +
     '                                        </div>\n' +
     '                                    </div>\n' +
@@ -64,7 +64,7 @@ ContactsBlock = '<div class="container-fluid background-box">\n' +
     '                                                    <img class="img-fluid" src="pictures/IMG_9500.jpg">\n' +
     '                                                </div>\n' +
     '\n' +
-    '                                                <div class="card-footer cardText"><a href="mailto: jheck10@kent.edu">Email</a></div>\n' +
+    '                                                <div class="card-footer cardText"><a href="mailto: Bmariol1@kent.edu">Email</a></div>\n' +
     '                                            </div>\n' +
     '                                        </div>\n' +
     '                                    </div>\n' +
@@ -94,7 +94,7 @@ ContactsBlock = '<div class="container-fluid background-box">\n' +
     '                                                    <img class="img-fluid" src="pictures/image0 (1).jpg">\n' +
     '                                                </div>\n' +
     '\n' +
-    '                                                <div class="card-footer cardText"><a href="mailto: pleyden@kent.edu">Email</a></div>\n' +
+    '                                                <div class="card-footer cardText"><a href="mailto: Jdoty4@Kent.edu">Email</a></div>\n' +
     '                                            </div>\n' +
     '                                        </div>\n' +
     '                                    </div>\n' +
